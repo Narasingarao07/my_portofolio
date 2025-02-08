@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <!-- FontAwesome for icons (if needed) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">Narasinga Rao</h1>
+    </div>
+    <div class="hamburger" id="hamburger">
+      <span class="line"></span>
+      <span class="line"></span>
+      <span class="line"></span>
+    </div>
+    <nav class="side-menu" id="side-menu">
+      <ul class="nav-links">
+        <li><a href="#about1">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- <div class="first-head" id="about1"></div> -->
+
+  <div class="blur-content">
+      
+    <div class="profile-section" id="profile">
+        <div class="container profile-container">
+          <div class="left-section">
+            <img src="images/profile_pic.jpg" alt="Narasinga Rao" class="profile-pic">
+              <!-- Icons below the profile picture -->
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/narasinga-rao-tammineni-661bb1305/?originalSubdomain=in" target="_blank" class="social-icon">
+                <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://www.instagram.com/narasingarao118/" target="_blank" class="social-icon">
+                <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+          </div>
+
+
+          <div class="right-section">
+            <h2>Hello, I'm Narasinga Rao</h2>
+            <div id="typewriter-text" class="typewriter"><h1>I'm a <span class="auto-type"></span></h1></div>
+            <p>I am a passionate tech enthusiast with a love for coding and creating innovative solutions. I specialize in web development and enjoy working with HTML, CSS, and JavaScript. Let's connect!</p>
+          </div>
+        </div>
+    </div>
+    <!-- Animated ruler -->
+    <hr class="animated-ruler">
+    <!-- About me section -->
+    <section id="about1" class="about-me">
+      <fieldset class="about-fieldset">
+        <legend class="about-legend">
+          <img src="images/about_pic.jpg" alt="Profile Image" class="profile-img">
+        </legend>
+        <div class="about-content">
+          <h2>About Me</h2>
+          <hr class="divider">
+          <p>
+            <strong>Hi,</strong><br>
+            I'm <strong class="highlight-name">T.Narasinga Rao</strong>, a dedicated full-stack web developer, 
+            My passion for coding drives me to design websites with modern frameworks and solid architecture.
+          </p>
+          <p>
+            I'm from <strong class="highlight-location">Vasudevapatnam (village), Santhakaviti (mandal), Srikakulam (district), A.P.</strong>, 
+            and I take pride in utilizing my diverse talents to serve my community and clients.
+          </p>
+        </div>
+
+          <!-- WebM Animation -->
+        <div class="animation-container">
+          <video class="animated-video" autoplay loop muted>
+            <source src="aboutme2.mp4" type="video/webm">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </fieldset>
+    </section>
+    
+    
+    <section id="projects" class="projects">
+      <h2 class="projects-header">Projects</h2>
+    
+      <div class="projects-container">
+        <!-- Project Card 1 -->
+        <div class="project-card">
+          <h3 class="project-title">Calci <br> Hub</h3>
+          <div class="project-image-container">
+            <img src="images/claci_hub.png" alt="Project 1" class="project-image">
+            <div class="overlay">
+              <div class="slide left">
+                <p>A website with group of calci's</p>
+              </div>
+              <div class="slide right">
+                <p>HTML, CSS, JavaScript</p>
+              </div>
+            </div>
+          </div>
+          <div class="description">
+            <p ><small><small>A consolidated website housing diverse calculators. From basic arithmetic to scientific functions, simplifying calculations</small></small></p>
+          </div>
+        </div>
+    
+        <!-- Project Card 2 -->
+        <div class="project-card">
+          <h3 class="project-title">College Website</h3>
+          <div class="project-image-container">
+            <img src="images/college_project.png" alt="Project 2" class="project-image">
+            <div class="overlay">
+              <div class="slide left">
+                <p>My diploma college website</p>
+              </div>
+              <div class="slide right">
+                <p>Django, Aws cloud, Postgres</p>
+              </div>
+            </div>
+          </div>
+          <div class="description">
+            <p><small>
+              A dynamic college website providing information, updates, and student resources.
+            </small></p>
+          </div>
+        </div>
+    
+        <!-- Project Card 3 -->
+        <div class="project-card">
+          <h3 class="project-title">Library-management</h3>
+          <div class="project-image-container">
+            <img src="images/library2.png" alt="Project 3" class="project-image">
+            <div class="overlay">
+              <div class="slide left">
+                <p>A website to manage the library logs</p>
+              </div>
+              <div class="slide right">
+                <p>Django, Html, Bootstrap,js</p>
+              </div>
+            </div>
+          </div>
+            <div class="description">
+              <p><small><small>A library management system for efficient book tracking, user management, and seamless borrowing process.</small></small></p>
+            </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- skills section -->
+    <section id="skills" class="skills-section">
+      <h2>My Skills</h2>
+      <div class="skills-carousel">
+        <div class="skill-box"><i class="fab fa-html5 skill-icon"></i></div>
+        <div class="skill-box"><i class="fab fa-css3-alt skill-icon"></i></div>
+        <div class="skill-box"><i class="fab fa-js skill-icon"></i></div>
+        <div class="skill-box"><i class="fab fa-react skill-icon"></i></div>
+        <div class="skill-box"><i class="fab fa-node-js skill-icon"></i></div>
+        <div class="skill-box"><img src="c.png" alt="c++ icon" height="45px"></div>
+        <div class="skill-box"><img src="c++.png" alt="c++ icon" height="45px"></div>
+        <div class="skill-box"><i class="fab fa-python skill-icon"></i></div>
+        <div class="skill-box"><i class="fab fa-html5 skill-icon"></i></div>
+        <div class="skill-box"><i class="fab fa-css3-alt skill-icon"></i></div>
+        <div class="skill-box"><i class="fab fa-js skill-icon"></i></div>
+        <div class="skill-box"><i class="fab fa-react skill-icon"></i></div>
+        <div class="skill-box"><i class="fab fa-node-js skill-icon"></i></div>
+        <div class="skill-box"><img src="c.png" alt="c++ icon" height="45px"></div>
+        <div class="skill-box"><img src="c++.png" alt="c++ icon" height="45px"></div>
+        <div class="skill-box"><i class="fab fa-python skill-icon"></i></div>
+      </div>
+    </section>
+<!-- contact section -->
+
+<div id="contact" class="contact-section">
+  <div class="contact-container">
+    <!-- Left: Contact Details -->
+    <div class="contact-details">
+      <h2 class="contact-title">Get in Touch</h2>
+      <p class="contact-description">
+        Whether you have questions, want to collaborate, or just say hello, feel free to reach out!
+      </p>
+      <div class="contact-info">
+        <div class="contact-item">
+          <i class="fas fa-envelope contact-icon"></i>
+          <a href="#" class="contact-link">tammineniramesh67@gmail.com</a>
+        </div>
+        <div class="contact-item">
+          <i class="fas fa-phone-alt contact-icon"></i>
+          <a href="#" class="contact-link">6302759674</a>
+        </div>
+        <div class="contact-item">
+          <i class="fas fa-map-marker-alt contact-icon"></i>
+          <p class="contact-text">000 main street, Santhakaviti,  srikakulam, india</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right: Contact Form -->
+    <div class="contact-form-container">
+      <form class="contact-form" action="https://formsubmit.co/codecraftstudio67@gmail.com" method="POST">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="text" name="name" class="form-input" placeholder="Your Name" required>
+        <input type="email" name="email" class="form-input" placeholder="Your Email" required>
+        <textarea name="message" class="form-textarea" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit" class="form-button">Send Message</button>
+    </form>
+    </div>
+  </div>
+</div>
+    
+    
+      <footer class="footer">
+        <div class="container">
+          <div class="social-icons2">
+            <a href="https://www.linkedin.com/in/narasinga-rao-tammineni-661bb1305/?originalSubdomain=in" target="_blank" class="social-icon">
+            <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://www.instagram.com/narasingarao118/" target="_blank" class="social-icon">
+            <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+
+          <p>&copy; 2025 Narasinga Rao. All rights reserved.</p>
+        </div>
+      </footer>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings: ["Programmer", "Developer", "Movie Lover"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true
+        })
+    </script>
+
+</body>
+</html>
